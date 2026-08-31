@@ -1,0 +1,6 @@
+# Cloudflare Pages/Workers 静态资源配置
+# 让 wrangler 直接把仓库根目录作为静态网站部署，
+# 不依赖网页后台的构建目录设置（避免 "Could not detect a directory containing static files"）
+name = "wechat-links"
+compatibility_date = "2024-10-01"
+assets = { directory = "./" }
