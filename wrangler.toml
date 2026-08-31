@@ -1,5 +1,5 @@
 # Cloudflare Pages 静态资源配置
-# 静态文件在 public/ 目录（Cloudflare 约定），index.html 在 public/ 下
+# assets-only Worker：静态文件在 public/，不能带 binding（否则报错）
 name = "wechat-links"
 compatibility_date = "2024-10-01"
-assets = { directory = "./public", binding = "ASSETS" }
+assets = { directory = "./public" }
