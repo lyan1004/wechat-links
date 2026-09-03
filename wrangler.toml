@@ -1,6 +1,0 @@
-# Cloudflare 静态站点配置
-# 标准模式：Worker(main) + 静态资源(assets)，兼容各种后台设置
-name = "wechat-links"
-main = "src/index.js"
-compatibility_date = "2024-10-01"
-assets = { directory = "./public", binding = "ASSETS" }
